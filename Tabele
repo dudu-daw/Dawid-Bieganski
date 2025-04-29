@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   	<title>Index</title>
+	<meta charset="UTF-8">
+   	<meta name="keywords" content="tabele">
+	<meta name="description" content="Lekcja 13" />
+	<meta name="author" content="Dawid Biegański" />
+	<meta name="robots" content="all" />
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th style="background-color: #2083d5;">
+                1
+            </th>
+            <th style="background-color: #2083d5;">
+                2
+            </th>
+            <th style="background-color: #2083d5;">
+                3
+            </th>
+            <th style="background-color: #2083d5;">
+                4
+            </th>
+            <th style="background-color: #2083d5;">
+                5
+            </th>
+            <th style="background-color: #2083d5;">
+                6
+            </th>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                2
+            </th>
+            <td>
+                a
+            </td>
+            <td style="background-color: #58e16c;">
+                b
+            </td>
+            <td style="background-color: #58e16c;">
+                c
+            </td>
+            <td>
+                d
+            </td>
+            <td>
+                e
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                3
+            </th>
+            <td>
+                f
+            </td>
+            <td>
+                g
+            </td>
+            <td>
+                h
+            </td>
+            <td>
+                i
+            </td>
+            <td style="background-color: #58e16c;">
+                j
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                4
+            </th>
+            <td>
+                k
+            </td>
+            <td>
+                l
+            </td>
+            <td>
+                m
+            </td>
+            <td>
+                n
+            </td>
+            <td style="background-color: #58e16c;">
+                o
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                5
+            </th>
+            <td style="background-color: #58e16c;">
+                p
+            </td>
+            <td style="background-color: #58e16c;">
+                q
+            </td>
+            <td style="background-color: #58e16c;">
+                r
+            </td>
+            <td>
+                s
+            </td>
+            <td>
+                t
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                6
+            </th>
+            <td style="background-color: #58e16c;">
+                u
+            </td>
+            <td style="background-color: #58e16c;">
+                v
+            </td>
+            <td style="background-color: #58e16c;">
+                w
+            </td>            
+            <td>
+                y
+            </td>
+            <td>
+                z
+            </td>
+        </tr>
+    </table>
+	<table>
+        <tr>
+            <th style="background-color: #2083d5;">
+                1
+            </th>
+            <th style="background-color: #2083d5;">
+                2
+            </th>
+            <th style="background-color: #2083d5;">
+                3
+            </th>
+            <th style="background-color: #2083d5;">
+                4
+            </th>
+            <th style="background-color: #2083d5;">
+                5
+            </th>
+            <th style="background-color: #2083d5;">
+                6
+            </th>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                2
+            </th>
+            <td>
+                a
+            </td>
+            <td colspan="2" style="background-color: #58e16c;">
+                b,c
+            </td>
+            <td>
+                d
+            </td>
+            <td>
+                e
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                3
+            </th>
+            <td>
+                f
+            </td>
+            <td>
+                g
+            </td>
+            <td>
+                h
+            </td>
+            <td>
+                i
+            </td>
+            <td rowspan="2" style="background-color: #58e16c;">
+                j,o
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                4
+            </th>
+            <td>
+                k
+            </td>
+            <td>
+                l
+            </td>
+            <td>
+                m
+            </td>
+            <td>
+                n
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                5
+            </th>
+            <td colspan="3" rowspan="2" style="background-color: #58e16c;">
+                p,q,r,u,v,w
+            </td>
+            <td>
+                s
+            </td>
+            <td>
+                t
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                6
+            </th>
+            <td>
+                y
+            </td>
+            <td>
+                z
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th style="background-color: #2083d5;">
+                1
+            </th>
+            <th style="background-color: #2083d5;">
+                2
+            </th>
+            <th style="background-color: #2083d5;">
+                3
+            </th>
+            <th style="background-color: #2083d5;">
+                4
+            </th>
+            <th style="background-color: #2083d5;">
+                5
+            </th>
+            <th style="background-color: #2083d5;">
+                6
+            </th>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                2
+            </th>
+            <td>
+                a
+            </td>
+            <td colspan="3" style="background-color: #58e16c;">
+                b,c,d
+            </td>
+            <td>
+                e
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                3
+            </th>
+            <td>
+                f
+            </td>
+            <td>
+                g
+            </td>
+            <td>
+                h
+            </td>
+            <td>
+                i
+            </td>
+            <td style="background-color: #58e16c;">
+                j
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                4
+            </th>
+            <td>
+                k
+            </td>
+            <td>
+                l
+            </td>
+            <td>
+                m
+            </td>
+            <td>
+                n
+            </td>
+            <td style="background-color: #58e16c;">
+                o
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                5
+            </th>
+            <td style="background-color: #58e16c;">
+                p
+            </td>
+            <td style="background-color: #58e16c;">
+                q
+            </td>
+            <td style="background-color: #58e16c;">
+                r
+            </td>
+            <td>
+                s
+            </td>
+            <td>
+                t
+            </td>
+        </tr>
+        <tr>
+            <th style="background-color: #2083d5;">
+                6
+            </th>
+            <td style="background-color: #58e16c;">
+                u
+            </td>
+            <td style="background-color: #58e16c;">
+                v
+            </td>
+            <td style="background-color: #58e16c;">
+                w
+            </td>            
+            <td>
+                y
+            </td>
+            <td>
+                z
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
