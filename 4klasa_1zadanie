@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawid B - Zadania</title>
+</head>
+<body>
+    <header>
+        <h1>Dawid B - Zadania</h1>
+    </header>
+
+    <div class="content">
+        <section class="tasks">
+            <h2>Zadania z 3 klasy:</h2>
+            <ul>
+                <li><a href="link_do_zadania_1.html" target="_blank">Zadanie 1</a></li>
+                <li><a href="link_do_zadania_2.html" target="_blank">Zadanie 2</a></li>
+            </ul>
+        </section>
+
+        <section class="sentences">
+            <h2>Zdania z 4 klasy:</h2>
+            <textarea placeholder="Wpisz tutaj swoje zdania z 4 klasy..."></textarea>
+        </section>
+    </div>
+</body>
+</html>
