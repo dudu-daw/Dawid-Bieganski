@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Halloween — Cukierek czy Psikus?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <header>
+      <div class="logo">🎃</div>
+      <div>
+        <h1>Halloween — noc cukierków i psikusów</h1>
+        <p class="lead">Krótko: Halloween obchodzone jest 31 października — to wieczór kostiumów, lampionów z dyni oraz zabaw typu "cukierek albo psikus".</p>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="info">
+        <h2 style="margin-top:0">Co to jest Halloween?</h2>
+        <p>Halloween ma korzenie w tradycjach celtyckich i chrześcijańskich — stało się popularne zwłaszcza w USA. Dzisiaj to głównie zabawa: przebieranki, dekoracje, dyniowe lampiony i chodzenie po domach, by prosić o słodycze.</p>
+
+        <h3 style="margin-bottom:6px">Szybkie wskazówki</h3>
+        <ul>
+          <li>Data: 31 października.</li>
+          <li>Popularne elementy: dynia, kostiumy, lampiony, czarne koty i nietoperze.</li>
+          <li>Jeśli idziesz po cukierki — sprawdź zasady w swojej okolicy.</li>
+        </ul>
+      </div>
+
+      <div style="position:relative">
+        <input class="trickbox" id="trickbox" type="checkbox" />
+        <div class="interactive">
+          <span class="pumpkin" aria-hidden>🎃</span>
+          <label for="trickbox" class="btn" role="button">Kliknij mnie — cukierek albo psikus!</label>
+
+          <div class="result" aria-live="polite">
+            <div class="text candy">🍬 Cukierek! Smacznego!</div>
+            <div class="text trick">👻 Psikus! Uwaga na straszydła!</div>
+          </div>
+          <div class="note">Kliknij ponownie, aby zmienić wynik.</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Prosta strona demonstracyjna — możesz skopiować ten plik jako <code>halloween.html</code> i otworzyć w przeglądarce.</footer>
+  </div>
+</body>
+</html>
