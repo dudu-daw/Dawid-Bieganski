@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+}
+
+header {
+    background-color: #ffd6e0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+p {
+    color: #444;
+}
+
+.sekcja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.lewo {
+    flex-direction: row;
+}
+
+.prawo {
+    flex-direction: row-reverse;
+}
+
+.sekcja img {
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sekcja div {
+    max-width: 300px;
+}
+
+.baranek { background-color: #d0f0c0; }
+.jajko { background-color: #fff3b0; }
+.koszyk { background-color: #ffd6a5; }
+.kwiaty { background-color: #ffcad4; }
+.zajac { background-color: #cdb4db; }
+
+footer {
+    background-color: #ffd6e0;
+    text-align: center;
+    padding: 10px;
+}
